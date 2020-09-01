@@ -1,0 +1,196 @@
+{"level":"INFO","ts":1598880641.5562384,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598880641.6175654,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"ERROR","ts":1598880643.6206305,"caller":"WebAppExample/main.go:46","msg":"init redis failed","error":"dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"INFO","ts":1598880687.0186634,"caller":"WebAppExample/main.go:32","msg":"init logger success"}
+{"level":"INFO","ts":1598880687.0453095,"caller":"WebAppExample/main.go:42","msg":"init mysql success"}
+{"level":"INFO","ts":1598880781.848027,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598880781.8782423,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598880873.5726285,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598880873.5985332,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598880907.1464024,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":404,"method":"GET","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0}
+{"level":"INFO","ts":1598880915.377776,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":404,"method":"GET","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0}
+{"level":"INFO","ts":1598880918.9468746,"caller":"logger/gin_middleware.go:25","msg":"/index/signup","status":404,"method":"GET","path":"/index/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0}
+{"level":"ERROR","ts":1598880926.0197184,"caller":"controllers/user.go:18","msg":"invalid params","error":"EOF"}
+{"level":"INFO","ts":1598880926.0197184,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0009978}
+{"level":"ERROR","ts":1598880993.839751,"caller":"controllers/user.go:18","msg":"invalid params","error":"EOF"}
+{"level":"INFO","ts":1598880993.839751,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"userName=a&password=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0}
+{"level":"INFO","ts":1598881075.4197867,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598881075.4487429,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"ERROR","ts":1598881081.0446737,"caller":"controllers/user.go:18","msg":"invalid params","error":"EOF"}
+{"level":"INFO","ts":1598881081.0446737,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"userName=a&password=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0}
+{"level":"ERROR","ts":1598881113.3158145,"caller":"controllers/user.go:18","msg":"invalid params","error":"EOF"}
+{"level":"INFO","ts":1598881113.3188305,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"username=a&password=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0030164}
+{"level":"ERROR","ts":1598881195.6924977,"caller":"controllers/user.go:18","msg":"invalid params","error":"EOF"}
+{"level":"INFO","ts":1598881195.6924977,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"username=a&password=a&confirm_password=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0}
+{"level":"ERROR","ts":1598881266.6015103,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881266.6015103,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"INFO","ts":1598881266.6015103,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0039898}
+{"level":"INFO","ts":1598881424.3794372,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598881424.4113097,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598881434.1594737,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598881434.1873984,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"ERROR","ts":1598881440.0847502,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881440.0857465,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"INFO","ts":1598881440.0857465,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0029915}
+{"level":"INFO","ts":1598881450.6406908,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598881450.6686158,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598881467.1096954,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598881467.1362932,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"ERROR","ts":1598881476.6020505,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881476.6020505,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"INFO","ts":1598881476.6020505,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0020214}
+{"level":"INFO","ts":1598881497.7199275,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598881497.7458613,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"ERROR","ts":1598881509.873752,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881509.8747497,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"INFO","ts":1598881509.8747497,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.002992}
+{"level":"INFO","ts":1598881546.2259223,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598881546.2527063,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"ERROR","ts":1598881551.1665542,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881551.1675522,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"INFO","ts":1598881551.1675522,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0029848}
+{"level":"INFO","ts":1598881569.7750373,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598881569.8096907,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"ERROR","ts":1598881575.301181,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881575.301181,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"INFO","ts":1598881575.3021474,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0019945}
+{"level":"INFO","ts":1598881593.6395233,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598881593.6724038,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"ERROR","ts":1598881599.6967702,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881599.6967702,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"INFO","ts":1598881599.6967702,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0020262}
+{"level":"INFO","ts":1598881608.0488846,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598881608.0828922,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"ERROR","ts":1598881615.210465,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881615.2114627,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"INFO","ts":1598881615.2114627,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0029929}
+{"level":"INFO","ts":1598881680.1038144,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598881680.1348243,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598881684.4453511,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0027882}
+{"level":"ERROR","ts":1598881754.2278128,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"用户已存在"}
+{"level":"INFO","ts":1598881754.228811,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0009981}
+{"level":"ERROR","ts":1598881756.320394,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"用户已存在"}
+{"level":"INFO","ts":1598881756.320394,"caller":"logger/gin_middleware.go:25","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0009968}
+{"level":"INFO","ts":1598885371.1451707,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598885371.1759799,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598885377.964644,"caller":"logger/gin_middleware.go:25","msg":"/login","status":200,"method":"POST","path":"/login","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0.0018639}
+{"level":"INFO","ts":1598885398.25041,"caller":"logger/gin_middleware.go:25","msg":"/login","status":200,"method":"POST","path":"/login","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0}
+{"level":"INFO","ts":1598885403.3822348,"caller":"logger/gin_middleware.go:25","msg":"/login","status":200,"method":"POST","path":"/login","query":"=a&=a&=a","ip":"::1","user-agent":"PostmanRuntime/7.26.3","errors":"","cost":0}
+{"level":"INFO","ts":1598886563.762115,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598886563.7631128,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598964253.6887457,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598964253.7227688,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598964260.7610774,"caller":"logger/gin_middleware.go:25","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.016955}
+{"level":"INFO","ts":1598964267.324944,"caller":"logger/gin_middleware.go:25","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.001361}
+{"level":"INFO","ts":1598964267.38436,"caller":"logger/gin_middleware.go:25","msg":"/questions","status":404,"method":"GET","path":"/questions","query":"page=0&limit=10","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598964278.2140768,"caller":"logger/gin_middleware.go:25","msg":"/getCategoryList","status":404,"method":"GET","path":"/getCategoryList","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598965160.8184514,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598965160.8184514,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598966669.5049891,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598966669.5331376,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598966685.064074,"caller":"logger/gin_middleware.go:25","msg":"/","status":404,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598966685.1093965,"caller":"logger/gin_middleware.go:25","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"ERROR","ts":1598966688.5452936,"caller":"logger/gin_middleware.go:73","msg":"[Recovery from panic]","error":"open dist/index.html: The system cannot find the path specified.","request":"GET /index HTTP/1.1\r\nHost: localhost:8080\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7\r\nConnection: keep-alive\r\nCookie: Pycharm-1dcb0a8a=e3e351f7-a306-46e5-9bc1-127e96735759; csrftoken=TbvpMQVr7M3GeqLfAiusPBSZlq0bKxyEiGD1hmfmREqWVDza16CjfeYGWv3nWO2D; Goland-2ec1fc80=1475d994-3388-4eb8-833f-448a70c76263\r\nSec-Fetch-Dest: document\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-Site: none\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36\r\n\r\n"}
+{"level":"INFO","ts":1598966688.5462885,"caller":"logger/gin_middleware.go:25","msg":"/index","status":500,"method":"GET","path":"/index","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0020646}
+{"level":"INFO","ts":1598966692.9751801,"caller":"logger/gin_middleware.go:25","msg":"/index.html","status":404,"method":"GET","path":"/index.html","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598966768.306612,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598966768.306612,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598966772.0760524,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598966772.1019886,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598966790.716151,"caller":"logger/gin_middleware.go:25","msg":"/index.html","status":404,"method":"GET","path":"/index.html","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598966827.7803152,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598966827.7813194,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598966831.0216875,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598966831.0502093,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598966836.062176,"caller":"logger/gin_middleware.go:25","msg":"/index.html","status":404,"method":"GET","path":"/index.html","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598966966.3560123,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598966966.3560123,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598966971.4541383,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598966971.4829342,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598967054.0667498,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598967054.0667498,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598967059.1835093,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598967059.2110379,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598967065.6928911,"caller":"logger/gin_middleware.go:25","msg":"/index.html","status":404,"method":"GET","path":"/index.html","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967067.322561,"caller":"logger/gin_middleware.go:25","msg":"/index.html","status":404,"method":"GET","path":"/index.html","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967177.8531883,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598967177.8531883,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598967182.7719781,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598967182.7989428,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598967193.0070071,"caller":"logger/gin_middleware.go:25","msg":"/index.html","status":404,"method":"GET","path":"/index.html","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967198.9851098,"caller":"logger/gin_middleware.go:25","msg":"/","status":404,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967200.9014192,"caller":"logger/gin_middleware.go:25","msg":"/","status":404,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967240.1126637,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598967240.1136615,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598967244.363183,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598967244.3901222,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598967250.262991,"caller":"logger/gin_middleware.go:25","msg":"/","status":404,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967256.8489769,"caller":"logger/gin_middleware.go:25","msg":"/index.html","status":404,"method":"GET","path":"/index.html","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967310.2380564,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598967310.2380564,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598967314.8658836,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598967314.8933766,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598967318.9459581,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598967318.9459581,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598967322.271912,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598967322.299275,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598967333.569328,"caller":"logger/gin_middleware.go:25","msg":"/index.html","status":404,"method":"GET","path":"/index.html","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967388.9476323,"caller":"logger/gin_middleware.go:25","msg":"/index","status":200,"method":"GET","path":"/index","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0009957}
+{"level":"INFO","ts":1598967389.0650487,"caller":"logger/gin_middleware.go:25","msg":"/static/js/manifest.133c8f5a9b6a664ab59f.js","status":200,"method":"GET","path":"/static/js/manifest.133c8f5a9b6a664ab59f.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.097867}
+{"level":"INFO","ts":1598967389.0650487,"caller":"logger/gin_middleware.go:25","msg":"/static/js/app.8d081a09f27cc4a326ab.js","status":200,"method":"GET","path":"/static/js/app.8d081a09f27cc4a326ab.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0959006}
+{"level":"INFO","ts":1598967389.066046,"caller":"logger/gin_middleware.go:25","msg":"/static/css/app.6ec78b5873f1ad682b8f743262881d65.css","status":200,"method":"GET","path":"/static/css/app.6ec78b5873f1ad682b8f743262881d65.css","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0988643}
+{"level":"INFO","ts":1598967389.0670435,"caller":"logger/gin_middleware.go:25","msg":"/static/js/vendor.2ad3b75e0d43c9dbc791.js","status":200,"method":"GET","path":"/static/js/vendor.2ad3b75e0d43c9dbc791.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0978907}
+{"level":"INFO","ts":1598967389.1452115,"caller":"logger/gin_middleware.go:25","msg":"/static/js/0.7e1c5e15a6421e77267f.js","status":200,"method":"GET","path":"/static/js/0.7e1c5e15a6421e77267f.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0009975}
+{"level":"INFO","ts":1598967389.1452115,"caller":"logger/gin_middleware.go:25","msg":"/static/js/5.5fab6604a2796a5946c8.js","status":200,"method":"GET","path":"/static/js/5.5fab6604a2796a5946c8.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0009975}
+{"level":"INFO","ts":1598967389.1452115,"caller":"logger/gin_middleware.go:25","msg":"/static/js/4.2de8bf55ff1b2cd4dab2.js","status":200,"method":"GET","path":"/static/js/4.2de8bf55ff1b2cd4dab2.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967389.1869783,"caller":"logger/gin_middleware.go:25","msg":"/static/fonts/element-icons.535877f.woff","status":200,"method":"GET","path":"/static/fonts/element-icons.535877f.woff","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967389.192961,"caller":"logic/question.go:40","msg":"question list is null"}
+{"level":"INFO","ts":1598967389.192961,"caller":"logger/gin_middleware.go:25","msg":"/api/questions","status":200,"method":"GET","path":"/api/questions","query":"page=0&limit=10","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0029928}
+{"level":"INFO","ts":1598967401.5750525,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598967401.5760498,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598967416.7160704,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598967416.7429292,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598967421.3850257,"caller":"logger/gin_middleware.go:25","msg":"/index","status":200,"method":"GET","path":"/index","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967421.4715421,"caller":"logic/question.go:40","msg":"question list is null"}
+{"level":"INFO","ts":1598967421.4715421,"caller":"logger/gin_middleware.go:25","msg":"/api/questions","status":200,"method":"GET","path":"/api/questions","query":"page=0&limit=10","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0029898}
+{"level":"INFO","ts":1598967427.7490308,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598967427.75003,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598967431.19964,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598967431.2288883,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598967443.0600767,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598967443.0600767,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}
+{"level":"INFO","ts":1598967446.3719645,"caller":"WebAppExample/main.go:33","msg":"init logger success"}
+{"level":"INFO","ts":1598967446.3978946,"caller":"WebAppExample/main.go:43","msg":"init mysql success"}
+{"level":"INFO","ts":1598967451.6101875,"caller":"logger/gin_middleware.go:25","msg":"/index","status":200,"method":"GET","path":"/index","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967451.6831915,"caller":"logic/question.go:40","msg":"question list is null"}
+{"level":"INFO","ts":1598967451.6841905,"caller":"logger/gin_middleware.go:25","msg":"/api/questions","status":200,"method":"GET","path":"/api/questions","query":"page=0&limit=10","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0029495}
+{"level":"INFO","ts":1598967453.556221,"caller":"logger/gin_middleware.go:25","msg":"/index","status":200,"method":"GET","path":"/index","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967453.6180766,"caller":"logic/question.go:40","msg":"question list is null"}
+{"level":"INFO","ts":1598967453.6180766,"caller":"logger/gin_middleware.go:25","msg":"/api/questions","status":200,"method":"GET","path":"/api/questions","query":"page=0&limit=10","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0009856}
+{"level":"INFO","ts":1598967489.6631155,"caller":"logger/gin_middleware.go:25","msg":"/static/js/6.fa87dcfbf1ecaf027346.js","status":200,"method":"GET","path":"/static/js/6.fa87dcfbf1ecaf027346.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.1024063}
+{"level":"INFO","ts":1598967492.779799,"caller":"logger/gin_middleware.go:25","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0009753}
+{"level":"INFO","ts":1598967492.803353,"caller":"logic/question.go:40","msg":"question list is null"}
+{"level":"INFO","ts":1598967492.803353,"caller":"logger/gin_middleware.go:25","msg":"/api/questions","status":200,"method":"GET","path":"/api/questions","query":"page=0&limit=10","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0009966}
+{"level":"INFO","ts":1598967496.6407683,"caller":"logger/gin_middleware.go:25","msg":"/static/js/7.cfa6374446ec051849a2.js","status":200,"method":"GET","path":"/static/js/7.cfa6374446ec051849a2.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0009979}
+{"level":"INFO","ts":1598967498.7063692,"caller":"logger/gin_middleware.go:25","msg":"/static/js/1.4bd0b8b9cbf5c759b9b2.js","status":200,"method":"GET","path":"/static/js/1.4bd0b8b9cbf5c759b9b2.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0009982}
+{"level":"INFO","ts":1598967498.714093,"caller":"logger/gin_middleware.go:25","msg":"/api/getUserInfo","status":404,"method":"GET","path":"/api/getUserInfo","query":"peopleId=35307457194491904","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","ts":1598967502.4144542,"caller":"logic/question.go:40","msg":"question list is null"}
+{"level":"INFO","ts":1598967502.4144542,"caller":"logger/gin_middleware.go:25","msg":"/api/questions","status":200,"method":"GET","path":"/api/questions","query":"page=0&limit=10","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0007758}
+{"level":"INFO","ts":1598967509.5583892,"caller":"logger/gin_middleware.go:25","msg":"/static/js/2.24098bab0d463f3dd446.js","status":200,"method":"GET","path":"/static/js/2.24098bab0d463f3dd446.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"ERROR","ts":1598967510.809025,"caller":"controllers/category.go:13","msg":"mysql.GetCategoryList failed","error":"Error 1146: Table 'webapp.category' doesn't exist"}
+{"level":"INFO","ts":1598967510.8100219,"caller":"logger/gin_middleware.go:25","msg":"/api/getCategoryList","status":200,"method":"GET","path":"/api/getCategoryList","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0019945}
+{"level":"INFO","ts":1598967515.6631777,"caller":"logger/gin_middleware.go:25","msg":"/api/question","status":200,"method":"POST","path":"/api/question","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0040255}
+{"level":"INFO","ts":1598967515.668128,"caller":"logger/gin_middleware.go:25","msg":"/static/js/3.ee7262966273b6bf379a.js","status":200,"method":"GET","path":"/static/js/3.ee7262966273b6bf379a.js","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0}
+{"level":"ERROR","ts":1598967515.7042906,"caller":"mysql/question.go:64","msg":"get question failed","error":"sql: no rows in result set"}
+{"level":"ERROR","ts":1598967515.7042906,"caller":"logic/question.go:93","msg":"get question failed","error":"sql: no rows in result set"}
+{"level":"ERROR","ts":1598967515.7042906,"caller":"controllers/question.go:76","msg":"get question detail failed","error":"sql: no rows in result set"}
+{"level":"INFO","ts":1598967515.7042906,"caller":"logger/gin_middleware.go:25","msg":"/api/question","status":200,"method":"GET","path":"/api/question","query":"question_id=35451458069463040","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0016994}
+{"level":"WARN","ts":1598967515.7122707,"caller":"controllers/request.go:38","msg":"invalid offset","offsetStr":"","error":"strconv.Atoi: parsing \"\": invalid syntax"}
+{"level":"WARN","ts":1598967515.7122707,"caller":"controllers/request.go:42","msg":"invalid limit","limitStr":"","error":"strconv.Atoi: parsing \"\": invalid syntax"}
+{"level":"ERROR","ts":1598967515.7132642,"caller":"mysql/answer.go:36","msg":"GetAnswerList failed","error":"Error 1146: Table 'webapp.answer' doesn't exist"}
+{"level":"ERROR","ts":1598967515.7132642,"caller":"logic/answer.go:48","msg":"mysql.GetAnswerList failed","error":"Error 1146: Table 'webapp.answer' doesn't exist"}
+{"level":"ERROR","ts":1598967515.7132642,"caller":"controllers/answer.go:25","msg":"logic.GetAnswerList failed","error":"Error 1146: Table 'webapp.answer' doesn't exist"}
+{"level":"INFO","ts":1598967515.7132642,"caller":"logger/gin_middleware.go:25","msg":"/api/answers","status":200,"method":"GET","path":"/api/answers","query":"question_id=35451458069463040","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0009933}
+{"level":"INFO","ts":1598967521.3641818,"caller":"logger/gin_middleware.go:25","msg":"/api/questions","status":200,"method":"GET","path":"/api/questions","query":"page=0&limit=10","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36","errors":"","cost":0.0019946}
+{"level":"INFO","ts":1598969071.7092533,"caller":"WebAppExample/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","ts":1598969071.7102537,"caller":"WebAppExample/main.go:96","msg":"Server exiting..."}

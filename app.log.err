@@ -1,0 +1,32 @@
+{"level":"ERROR","ts":1598880643.6206305,"caller":"WebAppExample/main.go:46","msg":"init redis failed","error":"dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"ERROR","ts":1598880926.0197184,"caller":"controllers/user.go:18","msg":"invalid params","error":"EOF"}
+{"level":"ERROR","ts":1598880993.839751,"caller":"controllers/user.go:18","msg":"invalid params","error":"EOF"}
+{"level":"ERROR","ts":1598881081.0446737,"caller":"controllers/user.go:18","msg":"invalid params","error":"EOF"}
+{"level":"ERROR","ts":1598881113.3158145,"caller":"controllers/user.go:18","msg":"invalid params","error":"EOF"}
+{"level":"ERROR","ts":1598881195.6924977,"caller":"controllers/user.go:18","msg":"invalid params","error":"EOF"}
+{"level":"ERROR","ts":1598881266.6015103,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881266.6015103,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881440.0847502,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881440.0857465,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881476.6020505,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881476.6020505,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881509.873752,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881509.8747497,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881551.1665542,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881551.1675522,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881575.301181,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881575.301181,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881599.6967702,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881599.6967702,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881615.210465,"caller":"mysql/user.go:36","msg":"snowflake.GenID failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881615.2114627,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"snoy flake not inited"}
+{"level":"ERROR","ts":1598881754.2278128,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"用户已存在"}
+{"level":"ERROR","ts":1598881756.320394,"caller":"controllers/user.go:28","msg":"sign up user failed","error":"用户已存在"}
+{"level":"ERROR","ts":1598966688.5452936,"caller":"logger/gin_middleware.go:73","msg":"[Recovery from panic]","error":"open dist/index.html: The system cannot find the path specified.","request":"GET /index HTTP/1.1\r\nHost: localhost:8080\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7\r\nConnection: keep-alive\r\nCookie: Pycharm-1dcb0a8a=e3e351f7-a306-46e5-9bc1-127e96735759; csrftoken=TbvpMQVr7M3GeqLfAiusPBSZlq0bKxyEiGD1hmfmREqWVDza16CjfeYGWv3nWO2D; Goland-2ec1fc80=1475d994-3388-4eb8-833f-448a70c76263\r\nSec-Fetch-Dest: document\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-Site: none\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36\r\n\r\n"}
+{"level":"ERROR","ts":1598967510.809025,"caller":"controllers/category.go:13","msg":"mysql.GetCategoryList failed","error":"Error 1146: Table 'webapp.category' doesn't exist"}
+{"level":"ERROR","ts":1598967515.7042906,"caller":"mysql/question.go:64","msg":"get question failed","error":"sql: no rows in result set"}
+{"level":"ERROR","ts":1598967515.7042906,"caller":"logic/question.go:93","msg":"get question failed","error":"sql: no rows in result set"}
+{"level":"ERROR","ts":1598967515.7042906,"caller":"controllers/question.go:76","msg":"get question detail failed","error":"sql: no rows in result set"}
+{"level":"ERROR","ts":1598967515.7132642,"caller":"mysql/answer.go:36","msg":"GetAnswerList failed","error":"Error 1146: Table 'webapp.answer' doesn't exist"}
+{"level":"ERROR","ts":1598967515.7132642,"caller":"logic/answer.go:48","msg":"mysql.GetAnswerList failed","error":"Error 1146: Table 'webapp.answer' doesn't exist"}
+{"level":"ERROR","ts":1598967515.7132642,"caller":"controllers/answer.go:25","msg":"logic.GetAnswerList failed","error":"Error 1146: Table 'webapp.answer' doesn't exist"}
